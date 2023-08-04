@@ -43,7 +43,7 @@
 <p>The project has been successfully deployed using 
 </p>
 
-[Netlify](https://assignment-week-7-imanm.netlify.app/)
+[Netlify](https://week7-marisiman.netlify.app/)
 
 </div>
 
