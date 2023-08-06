@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@500;600;700&display=swap');
 
 :root{
-    --main-color : #206A5D;
+    --main-color : #196658;
     --second-color : #81B214;
     --body-color : #F1F1E8;
     --navbar-color : #fff;
@@ -145,10 +145,213 @@ section{
 
 /* HOme End */
 
+
+/* service start */
+/*Kata awalan bagian servis start*/
+
+
+.service-start{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.service-start .row1{
+    text-align: center;
+}
+.service-start .label-service{
+    font-size: 20px;
+    font-family: var(--heading-font);
+    font-weight: 700;
+    text-transform: uppercase;
+    color: var(--second-color);
+}
+.service-start .heading-service{
+    font-size: 40px;
+    font-family: var(--heading-font);
+    font-weight: 700;
+    color: #4a4a4a;
+    margin: 10px 0;
+}
+.service-start .subheading-service{
+    font-size: 20px;
+   
+}
+
+.service-start .box-wrapper{
+
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    gap: 80px; 
+    padding-top: 20px;
+}
+
+.box-wrapper .box i{
+    font-size: 2rem;
+    color: var(--main-color);
+}
+.box-wrapper .box p{
+    font-size: 1.125rem;
+    font-family: var(--heading-font);
+    font-weight: 700;
+    color: var(--main-color);
+}
+/*Kata awalan end*/
+
+
+/*Transaksi pembelian*/
+/* service start */
+
+.service-wrapper {
+    margin-top: 50px;
+    background-color: var(--main-color);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    border-radius: 5px;
+}
+.box-service{
+    position: relative;
+    max-width: 300px;
+    text-align: center;
+    padding: 30px;
+}
+.box-service i{
+    font-size: 2.5rem;
+}
+.box-service h3{
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.box-action{
+    display: block;
+    position: relative;
+    max-width: 300px;
+    text-align: center;
+    padding: 0px 30px 30px 30px;
+}
+/*.box-action i{
+    font-size: 2.5rem;
+}*/
+
+.box-action h3{
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+
+select{
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+input[type='text']{
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+input[type='number']{
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+input[type='checkbox']{
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.box-action button{
+    
+    padding: 10px;
+    width: 150px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.box-service:hover button{
+    clip-path: polygon(0 100%, 100% 100%, 100% 0, 0 0);
+    transition: .4s ease-in-out;
+    background-color: rgb(255, 166, 0);
+}
+
+/* service end */
+
+/*Notifikasi Input Orderan*/
+#output {
+    
+    display: flex;
+    text-align: center;
+    justify-content: center;
+   
+}
+
+.todo-list{
+    margin-top: 50px;
+
+    display: block;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+
+    
+}
+
+.todo-list li {
+    margin-top: 30px;
+    position: relative;
+    border-radius: 5px;
+    border: 2px solid #ccc;
+    max-width: 1500px;
+    text-align: left;
+    padding: 30px;
+    font-size: 2rem;
+    color: var(--main-color);
+}
+
+.todo-list .todo-delete-all{
+    text-align: center;
+    width: 300px;
+    border-radius: 5px;
+    margin: auto;
+    cursor: pointer;
+}
+
+.todo-delete-all .delete{
+    padding: 10px;
+    width: 150px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+
+.todo-delete-all:hover .delete{
+    clip-path: polygon(0 100%, 100% 100%, 100% 0, 0 0);
+    transition: .3s ease-in-out;
+    background-color: rgb(255, 111, 0);
+}
+
 /*logo penutup*/
 
-.footer{
-    margin-top: 150px;
+.footer-end{
+    margin-top: 400px;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -182,6 +385,8 @@ section{
 .col-5-footer .copy{
     margin-top: 15px;
 }
+
+
 
 
 
