@@ -10,6 +10,13 @@
 <p>Create an Interactive website app to input user's assets and track their assets. Study for apply typescript and DOM
 </p>
 
+</br>
+  <img src="./image.png" height="358rm" text-align="center">
+  </br></br>
+  <img src="./image-1.png" height="500rm" align="center">
+
+</br></br>
+
 </div>
 
 ### ---
