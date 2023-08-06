@@ -11,9 +11,9 @@
 </p>
 
 </br>
-  <img src="./image.png" height="358rm" text-align="center">
+  <img src="./assets/image.png" height="408rm" justify-content="center">
   </br></br>
-  <img src="./image-1.png" height="500rm" align="center">
+  <img src="./assets/image-1.png" height="575rm" justify-content="center">
 
 </br></br>
 
